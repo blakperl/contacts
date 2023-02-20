@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.bigBox{
+    background-color: rgba(214, 150, 129, 0.719);
+    color: rgb(217, 217, 228); 
+    min-height: 150vh;
+    position: relative;
+}
+.contact {
+    background-color: rgba(192, 143, 143, 0.178);
+     margin: auto;
+     border-radius: 13px;
+     width: 35%;
+     /* position: relative; */
+     padding: 12px;
+     /* text-align: center; */
+     box-shadow: 3px 2px 3px rgba(223, 223, 202, 0.651);
+}
+     ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: rgba(216, 168, 152, 0.719) ;
+    }
+    li {
+        float: left ;
+    }
+    li a {
+        display: block;
+        color: white ;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }   
+    li a:hover {
+        background-color: blanchedalmond;
+    }
+.contact h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 2rem;
+
+}
+.contact h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 1rem;
+}
+.contact p {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    margin-top: 10px;
+}
+.contact input {
+   width: 95%; 
+   max-width: 100%;
+   margin-top: 1rem;
+   padding: 8px;
+   background-color: rgba(192, 143, 143, 0.699);
+   color: white;
+   border: 1px solid rgba(245, 237, 227, 0.76);
+   border-radius: 50px;
+}
+.message input {
+    width: 95%;  
+    max-width: 100%;
+   margin-top: 1rem;
+   background-color: rgba(192, 143, 143, 0.699);
+   color: white;
+   border: 1px solid rgba(245, 237, 227, 0.76);
+   border-radius: 23px;
+   min-height: 20vh;
+}
+.submit input {
+    background-color: rgba(192, 143, 143, 0.699);
+    border-radius: 100px;
+    border: 1px solid rgba(238, 229, 221, 0.774);
+    color:white;    
+    text-decoration:none;
+    margin-top: 2rem;
+     display: inline-block; 
+    text-align: left;
+    width: 30%;
+}
+::placeholder {
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 8px;
+}
+.link a {
+    background-color: rgba(192, 143, 143, 0.699);
+    border-radius: 100px;
+    border: 1px solid rgba(238, 229, 221, 0.774);
+    color:white;
+    padding: 10px 20px; 
+    text-decoration:none;
+    margin-left: 60%;
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+}
